@@ -807,7 +807,19 @@ RESPONSIVE
 
 @media(max-width:900px){
 
+#typing{
 
+    min-width:0;
+
+    width:100%;
+
+    white-space:normal;
+
+    display:block;
+
+    font-size:24px;
+
+}
 
 .hero{
 
@@ -815,7 +827,21 @@ RESPONSIVE
     flex-direction:column-reverse;
 
     text-align:center;
+	
+	padding:120px 20px 60px;
 
+    gap:40px;
+
+
+
+
+}
+
+.hero-image img{
+
+    width:250px;
+
+    height:250px;
 
 }
 
@@ -1149,6 +1175,16 @@ CONTACT BUTTONS
 
     color:white;
 
+
+}
+
+#typing{
+
+    display:inline-block;
+
+    min-width:420px;
+
+    white-space:nowrap;
 
 }
 
